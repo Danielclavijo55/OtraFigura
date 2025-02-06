@@ -191,8 +191,8 @@ void Tutorial02_Cube::CreateIndexBuffer()
     {
         // Top hexagon
         0,1,2, 0,2,3, 0,3,4, 0,4,5,
-        // Bottom hexagon
-        6,7,8, 6,8,9, 6,9,10, 6,10,11,
+        // Bottom hexagon (índices invertidos)
+        6,8,7, 6,9,8, 6,10,9, 6,11,10,
         // Sides
         0,6,1, 6,7,1,
         1,7,2, 7,8,2,
